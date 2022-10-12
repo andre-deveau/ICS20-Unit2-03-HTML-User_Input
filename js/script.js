@@ -7,12 +7,14 @@
 /**
  * This function gets users first name and age and shows it back to user.
  */
- function enterClicked() {
-    // input
-    const streetName = document.getElementById("street-name").value
-    const streetNumber = parseInt(document.getElementById("number-entered").value)
-  
-    // output
-    document.getElementById("address").innerHTML =
-      "Your info is: " + streetname + ", age " + streetNumber + "."
-  }
+function enterClicked() {
+  // input
+  const streetName = document.getElementById("street-name").value;
+  const streetNumber = parseInt(
+    document.getElementById("number-entered").value
+  );
+
+  // output
+  document.getElementById("address").innerHTML =
+    "Your info is: " + streetname + ", age " + streetNumber + ".";
+}
