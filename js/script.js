@@ -9,10 +9,10 @@
  */
 function enterClicked() {
   // input
-  const streetName = document.getElementById("street-name").value
   const streetNumber = parseInt(document.getElementById("number-entered").value)
+  const streetName = document.getElementById("street-name").value
 
   // output
   document.getElementById("address").innerHTML =
-    "Your info is: " + streetName + ", age " + streetNumber + "."
+    "Your info is: " + streetNumber + ", age " + streetName + "."
 }
